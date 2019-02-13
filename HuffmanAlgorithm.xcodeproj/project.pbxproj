@@ -14,6 +14,11 @@
 		C41CA7A522029495006017DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41CA7A322029495006017DA /* LaunchScreen.storyboard */; };
 		C41CA7B022029495006017DA /* HuffmanAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CA7AF22029495006017DA /* HuffmanAlgorithmTests.swift */; };
 		C41CA7BB22029495006017DA /* HuffmanAlgorithmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CA7BA22029495006017DA /* HuffmanAlgorithmUITests.swift */; };
+		C41CA7CE220294B6006017DA /* HuffmanCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CA7C9220294B5006017DA /* HuffmanCode.swift */; };
+		C41CA7CF220294B6006017DA /* BuildTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CA7CA220294B5006017DA /* BuildTree.swift */; };
+		C41CA7D0220294B6006017DA /* HuffmanEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CA7CB220294B5006017DA /* HuffmanEncode.swift */; };
+		C41CA7D1220294B6006017DA /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CA7CC220294B5006017DA /* Node.swift */; };
+		C41CA7D2220294B6006017DA /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CA7CD220294B5006017DA /* QuickSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		C41CA7B622029495006017DA /* HuffmanAlgorithmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuffmanAlgorithmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41CA7BA22029495006017DA /* HuffmanAlgorithmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuffmanAlgorithmUITests.swift; sourceTree = "<group>"; };
 		C41CA7BC22029495006017DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41CA7C9220294B5006017DA /* HuffmanCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuffmanCode.swift; sourceTree = "<group>"; };
+		C41CA7CA220294B5006017DA /* BuildTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildTree.swift; sourceTree = "<group>"; };
+		C41CA7CB220294B5006017DA /* HuffmanEncode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuffmanEncode.swift; sourceTree = "<group>"; };
+		C41CA7CC220294B5006017DA /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		C41CA7CD220294B5006017DA /* QuickSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		C41CA79922029494006017DA /* HuffmanAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C41CA7C8220294B5006017DA /* HuffmanAlgorithm */,
 				C41CA79A22029494006017DA /* AppDelegate.swift */,
 				C41CA79C22029494006017DA /* ViewController.swift */,
 				C41CA79E22029494006017DA /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				C41CA7BC22029495006017DA /* Info.plist */,
 			);
 			path = HuffmanAlgorithmUITests;
+			sourceTree = "<group>";
+		};
+		C41CA7C8220294B5006017DA /* HuffmanAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				C41CA7C9220294B5006017DA /* HuffmanCode.swift */,
+				C41CA7CA220294B5006017DA /* BuildTree.swift */,
+				C41CA7CB220294B5006017DA /* HuffmanEncode.swift */,
+				C41CA7CC220294B5006017DA /* Node.swift */,
+				C41CA7CD220294B5006017DA /* QuickSort.swift */,
+			);
+			path = HuffmanAlgorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +281,11 @@
 			files = (
 				C41CA79D22029494006017DA /* ViewController.swift in Sources */,
 				C41CA79B22029494006017DA /* AppDelegate.swift in Sources */,
+				C41CA7D2220294B6006017DA /* QuickSort.swift in Sources */,
+				C41CA7CF220294B6006017DA /* BuildTree.swift in Sources */,
+				C41CA7D1220294B6006017DA /* Node.swift in Sources */,
+				C41CA7D0220294B6006017DA /* HuffmanEncode.swift in Sources */,
+				C41CA7CE220294B6006017DA /* HuffmanCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
